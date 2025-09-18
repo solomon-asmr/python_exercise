@@ -1,0 +1,4 @@
+My name is solomon.
+I am 28 years old.
+My favourite food is a bowl of hot noodles.
+New line added.
