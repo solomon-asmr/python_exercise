@@ -10,14 +10,14 @@ if day_of_week == 6:
     with open("quotes.txt", 'r') as data:
         all_quote = data.readlines()
         ready_quote = random.choice(all_quote)
-        my_email = "selemonasmr7@gmail.com"
-        password = "hijf myxj rpve ntbf"
+        my_email = "your email"
+        password = "app password you get from gmail"
         with smtplib.SMTP("smtp.gmail.com") as connection:
             connection.starttls()
             connection.login(user=my_email, password=password)
             connection.sendmail(
                 from_addr=my_email,
-                to_addrs="soldever7@gmail.com",
+                to_addrs="to_email@gmail.com",
                 msg=f"Subject:Hello\n\n{ ready_quote }")
 
 #
