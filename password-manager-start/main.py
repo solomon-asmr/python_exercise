@@ -23,7 +23,7 @@ def generator():
 
     random.shuffle(password_list)
 
-    password = "#".join(password_list)
+    password = "".join(password_list)
     password_entry.insert(0, password)
     pyperclip.copy(password)
 
